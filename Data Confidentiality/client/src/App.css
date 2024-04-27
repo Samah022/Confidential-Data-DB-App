@@ -1,0 +1,12 @@
+body {
+  background-image: url('https://t3.ftcdn.net/jpg/00/60/36/92/360_F_60369235_0WbAKFjMMuF8EoP5ixfLBMlWcQpTjTJZ.jpg');
+}
+
+.form, .result {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 25px auto;
+
+}
