@@ -29,16 +29,6 @@ This project is a secure online diary application that allows users to create an
 
 - **Message Decryption**: Decrypts the stored encrypted diary entries using the same AES-256-CBC method when the user accesses their diary.
 
-### Authentication
-
-- **JWT Authentication**: Issues JWT tokens upon successful login, which are used to maintain user sessions.
-
-## Usage
-
-1. **Sign Up**: Users can sign up by providing their username, password, and diary entry.
-2. **Log In**: Users log in using their username and password to view their diary entries.
-3. **Diary Access**: Upon successful login, users can view their decrypted diary entries.
-
 ## Setup and Installation
 
 1. **Clone the Repository**:
@@ -92,10 +82,3 @@ This project is a secure online diary application that allows users to create an
         cd server
         node server.js
         ```
-
-## Figures
-
-- **Figure 1**: Sign Up form for new users.
-- **Figure 2**: Login form for existing users.
-- **Figure 3**: Display of decrypted diary entries for logged-in users.
-- **Figure 4**: Encrypted data storage in MySQL database.
